@@ -2,6 +2,7 @@
 
 - Llama 3 70B with 16-bit quantization on Akash Network intented for Akash Zealy Quest.
 - For this we need acces to Huggingface llama models.
+- Access can ge gained by requesting access from the repo's authors and by sharing your info.
 
 
 # Steps to Deploy Application ON Akash Network
