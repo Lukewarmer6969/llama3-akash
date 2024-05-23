@@ -38,3 +38,6 @@ curl -X POST http://<host>/v1/chat/completions -H "Content-Type: application/jso
 - Replace the << host >> with the url in leases.
 - Set `max_tokens` value of your choice.
 - Now you can chat With llama-3-70B and ask questions.
+- Take a look at the [Video](https://drive.google.com/file/d/1C-ToOlwH0hAStgc3hxmxqCHmx7D3hSrs/view?usp=sharing) tutorial. 
+
+ 
