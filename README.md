@@ -30,25 +30,11 @@
 
 # Test The deployed model.
 
- - Use the following api call code in Terminal or CMD or postman.
+ - Use the following api call in CMD or terminal (for UNIX)
 
 ```
-   url = "https://<<host>>/v1/chat/completions"
-
-headers = {
-    "Content-Type": "application/json"
-}
-
-data = {
-    "model": "meta-llama/Meta-Llama-3-70B-Instruct",
-    "messages": [
-        {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": "Tell me a joke."}
-    ],
-    "max_tokens": 50,
-    "temperature": 0.7
-}
-
+curl -X POST http://<host>/v1/chat/completions -H "Content-Type: application/json" -d "{\"model\": \"meta-llama/Meta-Llama-3-70B-Instruct\", \"messages\": [{\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"Tell me a joke.\"}], \"max_tokens\": 50, \"temperature\": 0.7}"
 ```
-- Replace the <<Host>> with the url in leases.
-- Start Chatting With llama-3-70B  
+- Replace the <host> with the url in leases.
+- Set `max_tokens` value of your choice.
+- Now you can chat With llama-3-70B and ask questions.
