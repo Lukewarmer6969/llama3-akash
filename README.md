@@ -26,3 +26,29 @@
 - Go to LEASES and press the URI
 - Wait for 30 mins for the model weight's to be downloaded.
 - Then Use Postman or CMD to interact with the llama model.
+
+
+# Test The deployed model.
+
+ - Use the following api call code in Terminal or CMD or postman.
+
+```
+   url = "https://<<host>>/v1/chat/completions"
+
+headers = {
+    "Content-Type": "application/json"
+}
+
+data = {
+    "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+    "messages": [
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Tell me a joke."}
+    ],
+    "max_tokens": 50,
+    "temperature": 0.7
+}
+
+```
+- Replace the <<Host>> with the url in leases.
+- Start Chatting With llama-3-70B  
