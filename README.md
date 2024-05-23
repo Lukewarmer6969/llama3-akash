@@ -35,6 +35,6 @@
 ```
 curl -X POST http://<host>/v1/chat/completions -H "Content-Type: application/json" -d "{\"model\": \"meta-llama/Meta-Llama-3-70B-Instruct\", \"messages\": [{\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"Tell me a joke.\"}], \"max_tokens\": 50, \"temperature\": 0.7}"
 ```
-- Replace the <<host>> with the url in leases.
+- Replace the << host >> with the url in leases.
 - Set `max_tokens` value of your choice.
 - Now you can chat With llama-3-70B and ask questions.
