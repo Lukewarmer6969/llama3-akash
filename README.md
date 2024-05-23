@@ -3,7 +3,7 @@
 - Llama 3 70B with 16-bit quantization on Akash Network intented for Akash Zealy Quest.
 - For this we need acces to Huggingface llama models.
 - Access can ge gained by requesting access from the repo's authors and by sharing your info.
-
+- After gaining the access to the repo create an access token by clicking [here](https://huggingface.co/settings/tokens).
 
 # Steps to Deploy Application ON Akash Network
 
@@ -17,6 +17,7 @@
 - Select "Build your template"
 - (Optional) Name your deployment
 - Select YAML and paste the [deploy.yaml](deploy.yaml) contents
+- Replace "hf_token" with your huggingface access token.
 - Press "Create Deployment"
 - click wallet transaction
 - Review bids and select provider
