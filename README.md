@@ -16,7 +16,7 @@
 - Press the deploy button
 - Select "Build your template"
 - (Optional) Name your deployment
-- Select YAML and paste the [deploy.yaml](deploy.yaml) contents
+- Select YAML and paste the [deploy.yaml](https://github.com/Lukewarmer6969/llama3-akash/blob/main/deploy.yaml) contents
 - Replace "hf_token" with your huggingface access token.
 - Press "Create Deployment"
 - click wallet transaction
